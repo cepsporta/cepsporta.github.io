@@ -2691,6 +2691,7 @@ button.btn1:hover {
 
 /*-- //responsive --*/
 
-.iconCord {
-    width: 2em;
+.userIcons {
+    width: 3em;
+    margin: 12px;
 }
