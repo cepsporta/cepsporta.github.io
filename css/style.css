@@ -2695,3 +2695,110 @@ button.btn1:hover {
     width: 3em;
     margin: 12px;
 }
+
+.timeline-container h1 {
+    font-size: 1.5em;
+    margin-bottom: .5em;
+    font-family: 'Oswald', sans-serif;
+}
+
+.timeline-container p {
+    font-family: 'Roboto', sans-serif;
+    font-size: .8rem;
+}
+
+.timeline-container {
+    max-width: 1024px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.timeline-item {
+    padding: 3em 2em 2em;
+    position: relative;
+    color: rgba(0, 0, 0, 0.7);
+    border-left: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.timeline-item p {
+    font-size: 1rem;
+}
+
+.timeline-item::before {
+    content: attr(date-is);
+    position: absolute;
+    left: 2em;
+    font-weight: bold;
+    top: 1em;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+.timeline-item::after {
+    width: 10px;
+    height: 10px;
+    display: block;
+    top: 1em;
+    position: absolute;
+    left: -7px;
+    border-radius: 10px;
+    content: '';
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    background: white;
+}
+
+.timeline-item:last-child {
+    -o-border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 60%, rgba(0, 0, 0, 0)) 1 100%;
+    border-image: -webkit-gradient(linear, left top, left bottom, color-stop(60%, rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0))) 1 100%;
+    border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 60%, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+.timeline-container {
+    -o-border-image: linear-gradient(to top, rgba(0, 0, 0, 0.3) 60%, rgba(0, 0, 0, 0)) 1 100%;
+    border-image: -webkit-gradient(linear, left top, left top, color-stop(60%, rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0))) 1 100%;
+    border-image: linear-gradient(to top, rgba(0, 0, 0, 0.3) 60%, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+#Timeline {
+    /* border-top: 2px solid gray; */
+    /* border-bottom: 2px solid gray; */
+    max-height: 50em;
+    overflow-y: scroll;
+    background: white;
+    /* box-shadow: 0 0 33px 13px #d4d4d4 inset; */
+}
+
+.gallery {
+    padding-top: 2em;
+}
+
+.w3-agileits-choose2 {
+    background: url("../images/background2.jpg")
+}
+
+.w3-agileits-choose3 {
+    background: url("../images/background3.jpg")
+}
+
+table th, table td {
+    color: #0c0808 !important;
+}
+
+.table {
+    background: rgba(255, 255, 255, .3);
+}
+
+.table>thead>tr>th {
+    border-bottom: none;
+}
+
+.table tr.border th {
+    border-bottom: 2px solid rgba(255, 255, 255, .4);
+}
+
+.HeadShedule {
+    text-align: center;
+    font-size: 1.1em !important;
+}
