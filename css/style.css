@@ -9,6 +9,9 @@ body a {
 html, body {
     font-size: 100%;
     font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
 }
 
 /*-- banner --*/
@@ -50,7 +53,7 @@ html, body {
 }
 
 .w3l-banner-grids {
-    padding: 5em 0 0 0;
+    /* padding: 5em 0 0 0; */
     z-index: 1;
 }
 
@@ -898,13 +901,13 @@ html, body {
     margin-bottom: 0;
 }
 
-.w3-agile-footer-grid ul li.text a {
+.w3-agile-footer-grid ul li a {
     color: #8a8a8a !important;
     margin-bottom: .5em !important;
     font-size: .9em !important;
 }
 
-.w3-agile-footer-grid ul li.text a:hover {
+.w3-agile-footer-grid ul li a:hover {
     color: #FFFFFF !important;
 }
 
@@ -2280,7 +2283,7 @@ button.btn1:hover {
         font-size: 6em;
     }
     .w3l-banner-grids {
-        padding: 7em 0 0 0;
+        /* padding: 7em 0 0 0; */
     }
     .w3ls-text p {
         letter-spacing: 2px;
@@ -2481,7 +2484,7 @@ button.btn1:hover {
         height: 320px;
     }
     .w3l-banner-grids {
-        padding: 8em 0 0 0;
+        /* padding: 8em 0 0 0; */
     }
     .social-grids {
         padding: 0em 0 0em 0;
@@ -2611,7 +2614,7 @@ button.btn1:hover {
         font-size: .8em;
     }
     .w3l-banner-grids {
-        padding: 7em 0 0 0;
+        /* padding: 7em 0 0 0; */
     }
     .w3ls-slider {
         min-height: 204px;
@@ -2709,6 +2712,7 @@ button.btn1:hover {
     background: #b3b3b37a;
     padding: 5px 8px;
     border-radius: 100px;
+    margin: 0 4px;
 }
 
 .timeline-container p {
@@ -2809,4 +2813,18 @@ table th, table td {
 .HeadShedule {
     text-align: center;
     font-size: 1.1em !important;
+}
+
+.HeadShedule span {
+    font-size: 1em;
+    padding: 7px 12px;
+    /* font-weight: normal; */
+    background: #806ee24f;
+    border-radius: 4px;
+    color: #1b1e40;
+}
+
+.section {
+    position: relative;
+    z-index: 1;
 }
