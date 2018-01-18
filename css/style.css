@@ -2697,9 +2697,18 @@ button.btn1:hover {
 }
 
 .timeline-container h1 {
-    font-size: 1.5em;
+    font-size: 1em;
     margin-bottom: .5em;
     font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+.timeline-container h1 span {
+    font-size: .8em;
+    font-weight: normal;
+    background: #b3b3b37a;
+    padding: 5px 8px;
+    border-radius: 100px;
 }
 
 .timeline-container p {
@@ -2728,12 +2737,13 @@ button.btn1:hover {
     content: attr(date-is);
     position: absolute;
     left: 2em;
-    font-weight: bold;
+    /* font-weight: bold; */
     top: 1em;
     display: block;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 1em;
+    color: #f35041;
 }
 
 .timeline-item::after {
@@ -2755,10 +2765,8 @@ button.btn1:hover {
     border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 60%, rgba(0, 0, 0, 0)) 1 100%;
 }
 
-.timeline-container {
-    -o-border-image: linear-gradient(to top, rgba(0, 0, 0, 0.3) 60%, rgba(0, 0, 0, 0)) 1 100%;
-    border-image: -webkit-gradient(linear, left top, left top, color-stop(60%, rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0))) 1 100%;
-    border-image: linear-gradient(to top, rgba(0, 0, 0, 0.3) 60%, rgba(0, 0, 0, 0)) 1 100%;
+.timeline-item:first-child {
+    border-image: linear-gradient(to bottom, #fff 0%, #b2b2b2 50%, #b2b2b2 100%) 1 stretch;
 }
 
 #Timeline {
