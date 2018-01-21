@@ -2897,6 +2897,55 @@ table th, table td {
     }
 }
 
+.ScoreBoardHighlight {
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    /* animation: ScoreBoardHighlight .9s ease infinite; */
+    /* -webkit-animation: ScoreBoardHighlight 0.1s ease-in 1;
+    -moz-animation: ScoreBoardHighlight 0.1s ease-in 1;
+    -o-animation: ScoreBoardHighlight 0.1s ease-in 1;
+    animation: ScoreBoardHighlight 0.1s ease-in 1; */
+}
+
+/* @-webkit-keyframes ScoreBoardHighlight {
+    0% {
+        font-size: 1em;
+    }
+    100% {
+        font-size: 2em;
+    }
+}
+
+@-moz-keyframes ScoreBoardHighlight {
+    0% {
+        font-size: 1em;
+    }
+    100% {
+        font-size: 2em;
+    }
+}
+
+@-o-keyframes ScoreBoardHighlight {
+    0% {
+        font-size: 1em;
+    }
+    100% {
+        font-size: 2em;
+    }
+} */
+
+@keyframes ScoreBoardHighlight {
+    0% {
+        /* font-size: 1em; */
+        color: black;
+    }
+    100% {
+        color: rgb(197, 49, 62);
+        /* font-size: 2em; */
+    }
+}
+
 .cardContainer .header::before, .cardContainer .header::after {
     content: '';
     display: table;
